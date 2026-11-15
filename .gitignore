@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+backend/*.db
+
+# Node
+node_modules/
+frontend/dist/
+
+# Окружение
+.env
+
+# Отчётные документы не храним в репозитории
+*.docx
+*.doc
+*.pdf
+
+# Артефакты локального запуска
+backups/
+frontend/e2e/shots/
+*.log
